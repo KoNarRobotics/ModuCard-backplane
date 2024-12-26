@@ -399,6 +399,12 @@
 		(uuid "a51dabcb-d82c-4c1b-a56c-b98350967a99")
 	)
 	(junction
+		(at 78.74 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3d1581c-8fa0-4149-a431-8753df8a988d")
+	)
+	(junction
 		(at 78.74 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -856,16 +862,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 124.46) (xy 86.36 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "409487c8-d99d-4615-bb62-a9d8fda3b60b")
-	)
-	(wire
-		(pts
 			(xy 78.74 86.36) (xy 78.74 87.63)
 		)
 		(stroke
@@ -964,16 +960,6 @@
 			(type default)
 		)
 		(uuid "5ddea026-2363-4a6e-a490-3596fee15dbb")
-	)
-	(wire
-		(pts
-			(xy 64.77 124.46) (xy 64.77 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "628748f8-40e7-4f59-9795-6aaa658fb55a")
 	)
 	(wire
 		(pts
@@ -1176,6 +1162,26 @@
 			(type default)
 		)
 		(uuid "b82dd138-c91e-4c13-9e5f-8ebeb338bdf2")
+	)
+	(wire
+		(pts
+			(xy 86.36 124.46) (xy 78.74 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be7eaf2d-6211-4fda-a166-b9558b545b04")
+	)
+	(wire
+		(pts
+			(xy 78.74 124.46) (xy 78.74 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beb39cc8-1f5c-4b67-99d6-cf612c337309")
 	)
 	(wire
 		(pts
@@ -18264,72 +18270,6 @@
 			(project "ModuCard-System-ActiveBackplane"
 				(path "/8ab7bab9-e078-4eba-84b5-91e80d010216/fe6b9307-b057-4908-8958-4420dfd82621"
 					(reference "NT27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 64.77 121.92 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ede3fcca-9df4-47d7-a76e-dee82b9eb0ef")
-		(property "Reference" "#PWR011"
-			(at 64.77 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5v stdby"
-			(at 69.85 121.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 64.77 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "677ebb61-5b65-4118-9d78-fd23e798bd6d")
-		)
-		(instances
-			(project "ModuCard-System-ActiveBackplane"
-				(path "/8ab7bab9-e078-4eba-84b5-91e80d010216/fe6b9307-b057-4908-8958-4420dfd82621"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)

@@ -3584,7 +3584,7 @@
 		(uuid "fb0fe6d8-2939-4800-a05d-7b7b27ede92a")
 	)
 	(label "USBIN.+"
-		(at 176.53 124.46 0)
+		(at 176.53 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3595,7 +3595,7 @@
 		(uuid "174d33d3-9c1c-4a85-8acb-320fa8eb1614")
 	)
 	(label "USBIN.-"
-		(at 176.53 128.27 0)
+		(at 176.53 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3659,7 +3659,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "063fe56d-c2d3-45ce-b360-429dd9619f49")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR01"
 			(at 27.94 97.79 0)
 			(effects
 				(font
@@ -3709,7 +3709,7 @@
 		(instances
 			(project "ModuCard-System-ActiveBackplane"
 				(path "/8ab7bab9-e078-4eba-84b5-91e80d010216"
-					(reference "#PWR09")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3724,7 +3724,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "355be9c8-9920-46be-a003-4f66bce8e853")
-		(property "Reference" "R6"
+		(property "Reference" "R1"
 			(at 30.226 110.744 90)
 			(effects
 				(font
@@ -3776,7 +3776,7 @@
 		(instances
 			(project "ModuCard-System-ActiveBackplane"
 				(path "/8ab7bab9-e078-4eba-84b5-91e80d010216"
-					(reference "R6")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3791,7 +3791,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e605f06-2e9a-411c-8258-4c86de3cfdbf")
-		(property "Reference" "R11"
+		(property "Reference" "R3"
 			(at 53.086 110.744 90)
 			(effects
 				(font
@@ -3843,7 +3843,7 @@
 		(instances
 			(project "ModuCard-System-ActiveBackplane"
 				(path "/8ab7bab9-e078-4eba-84b5-91e80d010216"
-					(reference "R11")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3858,7 +3858,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3fd60c4b-25cd-47e3-900c-5729c4c78388")
-		(property "Reference" "#PWR0631"
+		(property "Reference" "#PWR03"
 			(at 50.8 97.79 0)
 			(effects
 				(font
@@ -3908,7 +3908,7 @@
 		(instances
 			(project "ModuCard-System-ActiveBackplane"
 				(path "/8ab7bab9-e078-4eba-84b5-91e80d010216"
-					(reference "#PWR0631")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3923,7 +3923,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "572b5e9d-becf-4f7b-8694-4685464c1eb1")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR06"
 			(at 50.8 139.7 0)
 			(effects
 				(font
@@ -3974,7 +3974,7 @@
 		(instances
 			(project "ModuCard-System-ActiveBackplane"
 				(path "/8ab7bab9-e078-4eba-84b5-91e80d010216"
-					(reference "#PWR012")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3989,7 +3989,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "602b0684-e549-4079-a546-d7d67125e614")
-		(property "Reference" "D3"
+		(property "Reference" "D1"
 			(at 30.734 118.618 0)
 			(effects
 				(font
@@ -4043,7 +4043,7 @@
 		(instances
 			(project "ModuCard-System-ActiveBackplane"
 				(path "/8ab7bab9-e078-4eba-84b5-91e80d010216"
-					(reference "D3")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4127,7 +4127,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7fe277ac-de41-4380-863b-bea22a68b1e4")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR05"
 			(at 39.37 139.7 0)
 			(effects
 				(font
@@ -4178,7 +4178,7 @@
 		(instances
 			(project "ModuCard-System-ActiveBackplane"
 				(path "/8ab7bab9-e078-4eba-84b5-91e80d010216"
-					(reference "#PWR06")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4194,7 +4194,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "809d63e7-5c0e-4562-96b5-ef3ace6e78cb")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR02"
 			(at 39.37 97.79 0)
 			(effects
 				(font
@@ -4244,7 +4244,7 @@
 		(instances
 			(project "ModuCard-System-ActiveBackplane"
 				(path "/8ab7bab9-e078-4eba-84b5-91e80d010216"
-					(reference "#PWR05")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4259,7 +4259,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91ef859d-43aa-41d0-8cd1-0520c8fcc5cb")
-		(property "Reference" "NT17"
+		(property "Reference" "NT1"
 			(at 187.706 125.476 0)
 			(effects
 				(font
@@ -4311,7 +4311,7 @@
 		(instances
 			(project "ModuCard-System-ActiveBackplane"
 				(path "/8ab7bab9-e078-4eba-84b5-91e80d010216"
-					(reference "NT17")
+					(reference "NT1")
 					(unit 1)
 				)
 			)
@@ -4326,7 +4326,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a48e5ce1-f8ee-42f5-9914-e939280303b7")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR04"
 			(at 27.94 139.7 0)
 			(effects
 				(font
@@ -4377,7 +4377,7 @@
 		(instances
 			(project "ModuCard-System-ActiveBackplane"
 				(path "/8ab7bab9-e078-4eba-84b5-91e80d010216"
-					(reference "#PWR010")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4392,7 +4392,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a570ae90-9407-463a-a9f4-c1964ba3eea1")
-		(property "Reference" "NT18"
+		(property "Reference" "NT2"
 			(at 187.706 129.54 0)
 			(effects
 				(font
@@ -4444,7 +4444,7 @@
 		(instances
 			(project "ModuCard-System-ActiveBackplane"
 				(path "/8ab7bab9-e078-4eba-84b5-91e80d010216"
-					(reference "NT18")
+					(reference "NT2")
 					(unit 1)
 				)
 			)
@@ -4459,7 +4459,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba45f563-668d-4182-8d41-ae6435e093d0")
-		(property "Reference" "R5"
+		(property "Reference" "R2"
 			(at 41.656 110.744 90)
 			(effects
 				(font
@@ -4511,7 +4511,7 @@
 		(instances
 			(project "ModuCard-System-ActiveBackplane"
 				(path "/8ab7bab9-e078-4eba-84b5-91e80d010216"
-					(reference "R5")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4526,7 +4526,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c846d85c-1588-4b36-81f1-e3309a305efc")
-		(property "Reference" "D1"
+		(property "Reference" "D3"
 			(at 53.594 118.618 0)
 			(effects
 				(font
@@ -4580,7 +4580,7 @@
 		(instances
 			(project "ModuCard-System-ActiveBackplane"
 				(path "/8ab7bab9-e078-4eba-84b5-91e80d010216"
-					(reference "D1")
+					(reference "D3")
 					(unit 1)
 				)
 			)

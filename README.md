@@ -1,2 +1,3 @@
 # Active backplane board
-![obraz](https://github.com/user-attachments/assets/a6d1bc9c-ba13-4cc9-8a05-bcd97a125501)
+![obraz](https://github.com/user-attachments/assets/79692844-bbd5-4769-88aa-ef009ccf8458)
+

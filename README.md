@@ -4,7 +4,7 @@
 **Design** ✅ — **Fabrication** ✅ — **Assembly** ✅ — **Bringup** ✅ — **Testing** ✅  
 ## Key technologies:
 <img align="center" height="70" src="https://github.com/user-attachments/assets/21632584-becb-4529-b696-acb84c8190e9">&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-# Feachures
+# Features
 - IEC 60297-3-101 compatible (ready for 19 inch racks)
 - USB overseer interface
 - 2 CAN Lines
